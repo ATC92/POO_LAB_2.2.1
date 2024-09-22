@@ -30,10 +30,10 @@ public class Persona {
     public int getEstatura() {return Estatura;}
 
     // METODOS DE LA CLASE/OBJETO
-    public boolean comer(Random random){
+    public static boolean comer(Random random){
         return random.nextBoolean();
     }
-    public static int dormir(boolean N){
+    public int dormir(boolean N){
         if (N == true)
             return (int)(Math.random() * 8) + 1;
         else
